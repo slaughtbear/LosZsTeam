@@ -8,7 +8,7 @@ const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 // req = parámetro de llamada
 // res = parámetro de respuesta 
 
-
+ 
 app.get("/", (req, res) =>{
 // Se usa el objeto de la respuesta y una función send para enviar algo
     res.send('Bienvenido a mi primera API con Node JS'); // la funcion send sólo nos deja enviar texto plano al navegador
