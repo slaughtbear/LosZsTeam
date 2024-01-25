@@ -6,7 +6,8 @@ const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 // "/" = ruta principal
 // () => = función callback
 // req = parámetro de llamada
-// res = parámetro de respuesta
+// res = parámetro de respuesta 
+
 
 app.get("/", (req, res) =>{
 // Se usa el objeto de la respuesta y una función send para enviar algo
