@@ -1,0 +1,16 @@
+{
+  "clientes": [
+    {
+     "id": 1,
+     "nombre": "Gerardo Amaya",
+     "numero": "6142954999",
+     "fecha_cita": "2023-01-30T16:30:00"
+    },
+    {
+     "id": 1,
+     "nombre": "Adrian Mata",
+     "numero": "6144966433",
+     "fecha_cita": "2023-01-30T18:30:00"
+    }
+  ]
+}
