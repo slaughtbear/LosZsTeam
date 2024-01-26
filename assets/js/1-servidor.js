@@ -39,6 +39,20 @@ app.get('/clientes', (req, res) => { // El '/clientes' es el nombre de la ruta q
     res.json(data.clientes); // Esto lee especificamente dentro del .json el objeto de "clientes"
 });
 
+
+// para separar los datos cuando sean leidos
+app.listen(3000, () => {
+    console.log('Citas y fechas pendientes');
+});
+
+
+// Endpoint pra obtener las citas con el id de los clientes
+app.get('/citas',(req, res) => {
+    const data = readData();
+    res.json(data.citas);
+});
+
+
 // Con la funcion listen "escucha"
 app.listen(3000, () => { // Se le pasa un puerto y una función callback
     console.log('Server listening on port 3000');
