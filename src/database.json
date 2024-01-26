@@ -20,40 +20,60 @@
      },
      {
       "id": 4,
-      "nombre": "Aplica2",
-      "numero": "0180056897456",
+      "nombre": "Joaquin Lopez",
+      "numero": "6148524589",
+      "fecha_cita": "2023-01-30T18:30:00"
+     },
+    {
+      "id": 5,
+      "nombre": "Sofia Nevarez",
+      "numero": "6143578520",
+      "fecha_cita": "2023-01-30T16:30:00"
+     },
+     {
+      "id": 6,
+      "nombre": "Pamela Santana",
+      "numero": "6149631469",
       "fecha_cita": "2023-01-30T18:30:00"
      }     
   ],
   "citas":[
     {
       "id": 1,
-      "nombre": "Gerardo Amaya",
       "numero": "6142954999",
       "fecha_cita": "2023-01-30T16:30:00",
-      "detalles_cita": ""
+      "detalles_cita": "Corte, Barba"
      },
      {
       "id": 2,
-      "nombre": "Adrian Mata",
       "numero": "6144966433",
       "fecha_cita": "2023-01-30T18:30:00",
-      "detalles_cita": ""
+      "detalles_cita": "Corte, Despunte"
      },
      {
        "id": 3,
-       "nombre": "Alejandro Mendez",
        "numero": "6144651666",
        "fecha_cita": "2023-01-30T16:30:00",
-       "detalles_cita": ""
+       "detalles_cita": "Corte, Barba"
       },
       {
        "id": 4,
-       "nombre": "Aplica2",
        "numero": "0180056897456",
        "fecha_cita": "2023-01-30T18:30:00",
-       "detalles_cita": ""
-      } 
+       "detalles_cita": "Corte, rulos"
+      },
+      {
+        "id": 5,
+        "numero": "0180056897456",
+        "fecha_cita": "2023-01-30T18:30:00",
+        "detalles_cita": "tinte, Despunte"
+       },
+       {
+        "id": 6,
+        "numero": "0180056897456",
+        "fecha_cita": "2023-01-30T18:30:00",
+        "detalles_cita": "Despunte, Tratamiento contra la caida de cabello"
+       } 
     
   ]
 }
