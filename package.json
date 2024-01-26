@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon assets/js/1-servidor.js" 
+    "dev": "nodemon assets/js/1-servidor.js"
   },
   "author": "",
   "license": "ISC",
