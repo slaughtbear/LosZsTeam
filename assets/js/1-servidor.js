@@ -38,11 +38,19 @@ app.get('/clientes', (req, res) => { // El '/clientes' es el nombre de la ruta q
     const data = readData(); // Aqui ejecutamos la funcion readData que sirve para leer el archivo .json
     res.json(data.clientes); // Esto lee especificamente dentro del .json el objeto de "clientes"
 });
-// 
 
 
+// para separar los datos cuando sean leidos
+app.listen(3000, () => {
+    console.log('Citas y fechas pendientes');
+});
 
 
+// Endpoint pra obtener las citas con el id de los clientes
+app.get('/citas',(req, res) => {
+    const data = readData();
+    res.json(data.citas);
+});
 
 
 // Con la funcion listen "escucha"
