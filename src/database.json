@@ -7,10 +7,53 @@
      "fecha_cita": "2023-01-30T16:30:00"
     },
     {
-     "id": 1,
+     "id": 2,
      "nombre": "Adrian Mata",
      "numero": "6144966433",
      "fecha_cita": "2023-01-30T18:30:00"
-    }
+    },
+    {
+      "id": 3,
+      "nombre": "Alejandro Mendez",
+      "numero": "6144651666",
+      "fecha_cita": "2023-01-30T16:30:00"
+     },
+     {
+      "id": 4,
+      "nombre": "Aplica2",
+      "numero": "0180056897456",
+      "fecha_cita": "2023-01-30T18:30:00"
+     }     
+  ],
+  "citas":[
+    {
+      "id": 1,
+      "nombre": "Gerardo Amaya",
+      "numero": "6142954999",
+      "fecha_cita": "2023-01-30T16:30:00",
+      "detalles_cita": ""
+     },
+     {
+      "id": 2,
+      "nombre": "Adrian Mata",
+      "numero": "6144966433",
+      "fecha_cita": "2023-01-30T18:30:00",
+      "detalles_cita": ""
+     },
+     {
+       "id": 3,
+       "nombre": "Alejandro Mendez",
+       "numero": "6144651666",
+       "fecha_cita": "2023-01-30T16:30:00",
+       "detalles_cita": ""
+      },
+      {
+       "id": 4,
+       "nombre": "Aplica2",
+       "numero": "0180056897456",
+       "fecha_cita": "2023-01-30T18:30:00",
+       "detalles_cita": ""
+      } 
+    
   ]
 }

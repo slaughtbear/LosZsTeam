@@ -38,6 +38,12 @@ app.get('/clientes', (req, res) => { // El '/clientes' es el nombre de la ruta q
     const data = readData(); // Aqui ejecutamos la funcion readData que sirve para leer el archivo .json
     res.json(data.clientes); // Esto lee especificamente dentro del .json el objeto de "clientes"
 });
+// 
+
+
+
+
+
 
 // Con la funcion listen "escucha"
 app.listen(3000, () => { // Se le pasa un puerto y una función callback
