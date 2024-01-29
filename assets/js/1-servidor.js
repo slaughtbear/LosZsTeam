@@ -2,6 +2,8 @@ import express from 'express'; // De esta forma se importa express
 const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 import fs from 'fs'; // De esta forma se importa un modulo para leer y manipular archivos del sistema
 
+const PORT = 3000;
+
 // ENDPOINT
 // get es una llamada de red del metodo http
 // "/" = ruta principal
