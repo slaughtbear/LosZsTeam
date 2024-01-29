@@ -1,7 +1,7 @@
 import express from 'express'; // De esta forma se importa express
 const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 import fs from 'fs'; // De esta forma se importa un modulo para leer y manipular archivos del sistema
-
+import bodyParse from 'body-parse';
 /* const PORT = 3000; */
 
 // ENDPOINT
@@ -55,7 +55,7 @@ app.get('/citas',(req, res) => {
 });
 
 // Middleware para analizar el cuerpo de las solicitudes como JSON
-/* app.use(boddy.parse.json());  */
+app.use(boddy.parse.json());  
 
 
 
