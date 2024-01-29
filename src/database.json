@@ -7,10 +7,17 @@
      "fecha_cita": "2023-01-30T16:30:00"
     },
     {
-     "id": 1,
+     "id": 2,
      "nombre": "Adrian Mata",
      "numero": "6144966433",
      "fecha_cita": "2023-01-30T18:30:00"
+    }
+  ],
+  "Admin": [
+    {
+     "id": 1,
+     "nombre": "Gera Amaya",
+     "numero": "6142954999"
     }
   ]
 }
