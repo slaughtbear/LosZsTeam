@@ -54,8 +54,10 @@ app.get('/citas',(req, res) => {
     res.json(data.citas);
 });
 
-// Middleware para analizar el cuerpo de las solicitudes como JSON
-app.use(boddy.parse.json());
+/* // Middleware para analizar el cuerpo de las solicitudes como JSON
+app.use(boddy.parse.json()); */
+
+
 
 // Ruta para editar un usuario por su ID
 app.put('/usuarios/:id', (req, res) => {
