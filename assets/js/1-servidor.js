@@ -2,7 +2,7 @@ import express from 'express'; // De esta forma se importa express
 const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 import fs from 'fs'; // De esta forma se importa un modulo para leer y manipular archivos del sistema
 
-const PORT = 3000;
+/* const PORT = 3000; */
 
 // ENDPOINT
 // get es una llamada de red del metodo http
@@ -54,8 +54,8 @@ app.get('/citas',(req, res) => {
     res.json(data.citas);
 });
 
-/* // Middleware para analizar el cuerpo de las solicitudes como JSON
-app.use(boddy.parse.json()); */
+// Middleware para analizar el cuerpo de las solicitudes como JSON
+/* app.use(boddy.parse.json());  */
 
 
 
