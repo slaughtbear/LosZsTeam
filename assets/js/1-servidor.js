@@ -41,11 +41,6 @@ app.get('/clientes', (req, res) => { // El '/clientes' es el nombre de la ruta q
 });
 
 
-/* para separar los datos cuando sean leidos
-app.listen(3000, () => {
-    console.log('Citas y fechas pendientes');
-});
-*/
 
 
 // Endpoint pra obtener las citas con el id de los clientes
