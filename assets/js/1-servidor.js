@@ -1,8 +1,7 @@
 import express from 'express'; // De esta forma se importa express
 const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 import fs from 'fs'; // De esta forma se importa un modulo para leer y manipular archivos del sistema
-
-const PORT = 3000;
+import bodyParser from 'body-parser';
 
 // ENDPOINT
 // get es una llamada de red del metodo http
@@ -55,19 +54,20 @@ app.get('/citas',(req, res) => {
 });
 
 // Middleware para analizar el cuerpo de las solicitudes como JSON
-app.use(boddy.parse.json());
+app.use(bodyParser.json());
 
 // Ruta para editar un usuario por su ID
 app.put('/usuarios/:id', (req, res) => {
     const userId = req.params.id;
     const newData = req.body; // Datos nuevos del usuario
   
-  // Lee la base de datos JSON
+  /* Lee la base de datos JSON
   fs.readFile('usuarios.json', 'utf8', (err, data) => {
     if (err) {
       console.error(err);
       return res.status(500).send('Fallo del servidor... PERDON!');
     }
+    */
 
     let usuarios = JSON.parse(data);
 
@@ -91,7 +91,6 @@ app.put('/usuarios/:id', (req, res) => {
       res.send('Usuario actualizado correctamente');
     });
   });
-});
 
 
 // Con la funcion listen "escucha"
