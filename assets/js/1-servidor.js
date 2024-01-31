@@ -1,4 +1,4 @@
-import express from 'express'; // De esta forma se importa express
+/*import express from 'express'; // De esta forma se importa express
 const app = express(); // Aquí se crea un objeto de la aplicación del servidor
 import fs from 'fs'; // De esta forma se importa un modulo para leer y manipular archivos del sistema
 import bodyParser from 'body-parser';
@@ -13,7 +13,7 @@ import bodyParser from 'body-parser';
 // Función para leer los datos del archivo database.json
 const readData = () => {
     try { // Usamos try para poder capturar un error en caso de no encontrar el archivp
-        const data = fs.readFileSync('./src/database.json'); // readFileSync espera leer los datos para luego ejecutar el programa
+        const data = fs.readFileSync('./src/clientes.js'); // readFileSync espera leer los datos para luego ejecutar el programa
         return JSON.parse(data); // Con JSON.parse convertimos los datos .json
     } catch (error) { // Si la ruta no es correcta podría "romper" la aplicación
         console.log(error);
@@ -63,7 +63,7 @@ app.put('/usuarios/:id', (req, res) => {
       console.error(err);
       return res.status(500).send('Fallo del servidor... PERDON!');
     }
-    */
+    
 
     let usuarios = JSON.parse(data);
 
@@ -92,4 +92,4 @@ app.put('/usuarios/:id', (req, res) => {
 // Con la funcion listen "escucha"
 app.listen(3000, () => { // Se le pasa un puerto y una función callback
     console.log('Server listening on port 3000');
-});
+});*/
